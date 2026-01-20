@@ -21,13 +21,13 @@ while ($data = $exe->fetch_object()) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
        .table th {
         text-align: center;
        }
     </style>
-    <script src="bootstrap.bundle.js"></script>
+    
 
     <title>Index</title>
   </head>
@@ -100,5 +100,7 @@ while ($data = $exe->fetch_object()) {
  </table>
   </div></div>
 
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
