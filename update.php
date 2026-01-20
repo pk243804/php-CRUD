@@ -52,7 +52,7 @@ if (isset($_POST['update'])) {
 } 
 }
 ?>
-<!--html code-->
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -60,9 +60,7 @@ if (isset($_POST['update'])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <title>Update</title>
   </head>
@@ -164,5 +162,8 @@ if (isset($_POST['update'])) {
 </form> <br>
 </div>
 
+
+<script src="js/bootstrap.min.js"></script>
   </body>
+
 </html>
