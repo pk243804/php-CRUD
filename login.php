@@ -25,8 +25,7 @@ if (isset($_POST['login'])){
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <title>Login</title>
   </head>
@@ -73,5 +72,7 @@ echo "<div class = 'alert alert-danger' role = 'alert'> Email or password invali
 </div></div>
 </div></div>
 
+<script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
